@@ -13,11 +13,9 @@ jobs:
     - name: Archive Release
       uses: thedoctor0/zip-release@master
       with:
-        filename: 'unax.zip'
         exclusions: '*.git* *.github* /vendor .gitignore .distignore composer.lock phpcs.xml.dist README.md'
 
     - name: Upload Release
       uses: ncipollo/release-action@v1
       with:
-        artifacts: "logger.zip"
         token: ${{ secrets.GITHUB_TOKEN }}
