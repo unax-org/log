@@ -3,9 +3,13 @@ name: PHP PSR Enforcer
 on:
   push:
     branches: [ master ]
+    paths:
+      - 'src/**'
   pull_request:
     branches: [ master ]
     types: [ opened, synchronize ]
+    paths:
+      - 'src/**'
 
 jobs:
   phpcs:
@@ -39,8 +43,7 @@ jobs:
         restore-keys: ${{ runner.os }}-composer-
 
     - name: Install dependencies
-      run: |
-        composer install --prefer-dist
+      run: composer install --prefer-dist
 
     - name: Run PHPCS
-      run: composer run github-lint
+      run: ./vendor/bin/phpcs
