@@ -1,4 +1,7 @@
 *** Unax Logger Changelog ***
 
+2021-04-05 - version 1.0.1
+* Fix: autoload namespace.
+
 2021-04-05 - version 1.0.0
 * Initial release
