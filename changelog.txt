@@ -1,0 +1,4 @@
+*** Unax Logger Changelog ***
+
+2021-04-05 - version 1.0.0
+* Initial release

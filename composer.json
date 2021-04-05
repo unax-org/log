@@ -1,0 +1,28 @@
+{
+    "name": "unax/logger",
+    "description": "Logger with eight methods for writing logs to the eight RFC 5424 levels (debug, info, notice, warning, error, critical, alert, emergency).",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Unax Ltd.",
+            "email": "support@unax.org",
+            "homepage": "https://unax.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Unax\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "3.5.5"
+    },
+    "support": {
+        "email": "support@unax.org",
+        "homepage" : "https://unax.org"
+    },
+    "license": "GNU GENERAL PUBLIC LICENSE Version 3"
+}
