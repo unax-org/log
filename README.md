@@ -1,5 +1,5 @@
 [![PHP PSR Enforcer](https://github.com/unax-org/logger/actions/workflows/phpcs.yml/badge.svg)](https://github.com/unax-org/logger/actions/workflows/phpcs.yml)
-[![Theme Release](https://github.com/unax-org/logger/actions/workflows/theme-release.yml/badge.svg)](https://github.com/unax-org/logger/actions/workflows/theme-release.yml)
+[![Logger Release](https://github.com/unax-org/logger/actions/workflows/theme-release.yml/badge.svg)](https://github.com/unax-org/logger/actions/workflows/theme-release.yml)
 
 # Unax Logger
 
