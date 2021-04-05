@@ -22,10 +22,10 @@ class DefaultLogHandler
         $entry = self::formatEntry($timestamp, $level, $message, $context);
 
         // check log destination
-        $logDestination = \Unax\Unax::getLogDestination();
+        $logHandlerFile = \Unax\Logger\LogHandlerFile::getLogHandlerFile();
 
-        if (null !== $logDestination && touch($logDestination)) {
-            return \error_log($entry . PHP_EOL, 3, $logDestination);
+        if (null !== $logHandlerFile) {
+            return \error_log($entry . PHP_EOL, 3, $logHandlerFile);
         }
 
         return \error_log($entry, 0);
