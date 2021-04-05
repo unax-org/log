@@ -1,5 +1,10 @@
 *** Unax Logger Changelog ***
 
+2021-04-06 - version 1.1.0
+* New: LogHandlerFile class.
+* New: Logger class.
+* New: Example usage added in README.md
+
 2021-04-05 - version 1.0.1
 * Fix: autoload namespace.
 
