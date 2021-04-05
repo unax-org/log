@@ -3,10 +3,13 @@ name: PHP PSR Enforcer
 on:
   push:
     branches: [ master ]
-    
+    paths:
+      - 'src/**'
   pull_request:
     branches: [ master ]
     types: [ opened, synchronize ]
+    paths:
+      - 'src/**'
 
 jobs:
   phpcs:
